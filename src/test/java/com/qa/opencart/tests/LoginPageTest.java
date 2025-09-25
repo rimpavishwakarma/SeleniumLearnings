@@ -15,7 +15,7 @@ import com.qa.opencart.base.BaseTest;
 
 public class LoginPageTest extends BaseTest{
 
-	@Test(description = "Checking login title")
+	@Test(description = "Checking login title....")
 	public void loginPageTitleTest() {
 		String actTitle = loginPage.getLoginPageTitle();
 		ChainTestListener.log("checking login page title" + actTitle);
